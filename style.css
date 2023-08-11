@@ -39,7 +39,7 @@ body
     transition: .3s;
 }
 .navbar  a:hover{
-    color: #0ef;
+    color: rgb(0, 247, 255);
 }
 .home {
     position: relative;
@@ -48,4 +48,8 @@ body
     height: 100vh;
     background: url(wallpaperbetter.jpg);
     background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
 }
